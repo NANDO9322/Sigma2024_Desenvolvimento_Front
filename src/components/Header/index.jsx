@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { SearchBarContainer, Logo, SearchInputContainer, SearchInput, SearchIcon, LoginIcon } from './style'; // Importando os estilos do componente
-import PesquisarIcon from '../../assets/search-normal.svg';
-import LogoImage from '../../assets/logo.svg';
-import LoginIconImage from '../../assets/logar.svg';
+import PesquisarIcon from '../../assets/icons/search-normal.svg';
+import LogoImage from '../../assets/icons/logo.svg';
+import LoginIconImage from '../../assets/icons/logar.svg';
 
 const Header = ({ onSearch }) => {
   const [searchTerm, setSearchTerm] = useState('');

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FooterContainer, FooterContainerEndereço, FooterContainerInferior, FooterContainerMenu, FooterContainerCentral, FooterContainerColunas, FooterButton } from './style';
-import { SmallTitle, SubTitle } from '../../containers/Home/style';
+import { SubTitle, SmallTitle } from '../../containers/Home/style';
 
 const Footer = () => {
   const [showMoreInfo, setShowMoreInfo] = useState(false);
